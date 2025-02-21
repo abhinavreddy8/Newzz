@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Newzz</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Other strings -->
+
+    <string-array name="countries_array">
+        <item>United States</item>
+        <item>India</item>
+        <item>China</item>
+        <item>Australia</item>
+
+    </string-array>
+
+    <string-array name="country_codes_array">
+        <item>us</item>
+        <item>in</item>
+        <item>cn</item>
+        <item>au</item>
+
+    </string-array>
+</resources>

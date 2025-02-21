@@ -1,0 +1,18 @@
+<!-- res/drawable/combined_background.xml -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Bottom layer: black background -->
+    <item>
+        <shape>
+            <solid android:color="#EAB20A" /> <!-- Black background -->
+        </shape>
+    </item>
+    <!-- Top layer: rounded corners -->
+    <item>
+        <shape xmlns:android="http://schemas.android.com/apk/res/android">
+            <corners
+                android:topLeftRadius="100dp"
+                android:topRightRadius="100dp" />
+            <solid android:color="#EAC93C" /> <!-- Inner color -->
+        </shape>
+    </item>
+</layer-list>

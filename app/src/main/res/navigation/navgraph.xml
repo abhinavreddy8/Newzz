@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navgraph"
+    app:startDestination="@id/headlines2">
+
+    <fragment
+        android:id="@+id/article"
+        android:name="com.example.newzz.ui.fragments.article"
+        android:label="article" >
+        <argument
+            android:name="article"
+            app:argType="com.example.newzz.model.Article"
+            />
+        <action
+            android:id="@+id/action_article_to_weather"
+            app:destination="@id/weather" />
+        <action
+            android:id="@+id/action_article_to_dictionary"
+            app:destination="@id/dictionary" />
+    </fragment>
+    <fragment
+        android:id="@+id/search2"
+        android:name="com.example.newzz.ui.fragments.search"
+        android:label="fragment_search"
+        tools:layout="@layout/fragment_search" >
+        <action
+            android:id="@+id/action_search2_to_article"
+            app:destination="@id/article"
+            app:enterAnim="@anim/fragment_enter"
+            app:exitAnim="@anim/fragment_exit"
+            app:popEnterAnim="@anim/fragment_pop_enter"
+            app:popExitAnim="@anim/fragment_pop_exit"/>
+        <action
+            android:id="@+id/action_search2_to_weather"
+            app:destination="@id/weather" />
+        <action
+            android:id="@+id/action_search2_to_dictionary"
+            app:destination="@id/dictionary" />
+    </fragment>
+    <fragment
+        android:id="@+id/headlines2"
+        android:name="com.example.newzz.ui.fragments.headlines"
+        android:label="headlines" >
+        <action
+            android:id="@+id/action_headlines2_to_article"
+            app:destination="@id/article"
+            app:enterAnim="@anim/fragment_enter"
+            app:exitAnim="@anim/fragment_exit"
+            app:popEnterAnim="@anim/fragment_pop_enter"
+            app:popExitAnim="@anim/fragment_pop_exit"/>
+        <action
+            android:id="@+id/action_headlines2_to_weather"
+            app:destination="@id/weather" />
+        <action
+            android:id="@+id/action_headlines2_to_dictionary"
+            app:destination="@id/dictionary" />
+    </fragment>
+    <fragment
+        android:id="@+id/liked"
+        android:name="com.example.newzz.ui.fragments.liked"
+        android:label="liked" >
+        <action
+            android:id="@+id/action_liked_to_article"
+            app:destination="@id/article"
+            app:enterAnim="@anim/fragment_enter"
+            app:exitAnim="@anim/fragment_exit"
+            app:popEnterAnim="@anim/fragment_pop_enter"
+            app:popExitAnim="@anim/fragment_pop_exit"/>
+        <action
+            android:id="@+id/action_liked_to_weather"
+            app:destination="@id/weather" />
+        <action
+            android:id="@+id/action_liked_to_dictionary"
+            app:destination="@id/dictionary" />
+    </fragment>
+    <fragment
+        android:id="@+id/weather"
+        android:name="com.example.newzz.ui.fragments.weather"
+        android:label="fragment_weather"
+        tools:layout="@layout/fragment_weather" />
+    <fragment
+        android:id="@+id/dictionary"
+        android:name="com.example.newzz.ui.fragments.DictionaryFragment"
+        android:label="fragment_dictionary"
+        tools:layout="@layout/fragment_dictionary" />
+</navigation>

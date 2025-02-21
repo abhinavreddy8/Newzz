@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="dictionaryItem"
+            type="com.example.newzz.model.DictionaryItem" />
+        <import type="android.text.TextUtils" />
+    </data>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_marginVertical="8dp"
+        android:background="@drawable/dictionaryborder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Part of Speech (first meaning) -->
+        <!-- Part of Speech (first meaning) -->
+        <TextView
+            android:id="@+id/part_of_speech_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="#0C0C0C"/>
+
+        <!-- Word -->
+        <TextView
+            android:id="@+id/word_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textStyle="bold"
+            android:textSize="16sp"/>
+
+        <!-- Definitions -->
+        <TextView
+            android:id="@+id/definitions_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:lineSpacingExtra="4dp"/>
+
+        <!-- Synonyms Section -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:textStyle="bold"
+            android:text="Synonyms:"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/synonyms_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:lineSpacingExtra="4dp"/>
+
+        <!-- Antonyms Section -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:textStyle="bold"
+            android:text="Antonyms:"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/antonyms_textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:lineSpacingExtra="4dp"/>
+
+    </LinearLayout>
+</layout>
