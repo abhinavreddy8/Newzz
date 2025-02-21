@@ -29,7 +29,6 @@ class MainActivity : AppCompatActivity() {
     lateinit var binding:ActivityMainBinding
     lateinit var lottieanim:LottieAnimationView
     lateinit var lottieanim1:LottieAnimationView
-    //lateinit var weatherViewModel: WeatherviewModel
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
