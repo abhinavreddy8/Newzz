@@ -12,7 +12,7 @@ A modern Android app built with Kotlin that fetches real-time **Top Headlines**,
 - ViewModel + LiveData
 - Material Design
 - Lottie Animations
-- Firebase (if used)
+- Firebase
 - OpenWeatherMap API
 - News API
 - Dictionary API
