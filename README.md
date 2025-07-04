@@ -50,7 +50,7 @@ A modern Android app built with Kotlin that fetches real-time **Top Headlines**,
 
 | Top Headlines | Search News | Saved Articles |
 |---------------|-------------|----------------|
-| ![s1](https://github.com/abhinavreddy8/Newzz/blob/main/top%20fragment.jpg?raw=true) | ![s2](https://github.com/abhinavreddy8/Newzz/blob/main/search%20fragment.jpg?raw=true) | ![s3](https://github.com/abhinavreddy8/Newzz/blob/main/saved%20fragment.jpg?raw=true) |
+| ![s1](https://github.com/abhinavreddy8/Newzz/blob/main/top%20fragment.jpg?raw=true) | ![s2](https://github.com/abhinavreddy8/Newzz/blob/main/search%20fragment.jpg?raw=true) | ![s3](https://github.com/abhinavreddy8/Newzz/blob/main/saved%20fragment.jpg?raw=true) | ![s3](https://github.com/abhinavreddy8/Newzz/blob/main/webview.jpg)
 
 | Weather | Dictionary |
 |--------|------------|
