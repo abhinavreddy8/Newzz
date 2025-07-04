@@ -50,11 +50,12 @@ A modern Android app built with Kotlin that fetches real-time **Top Headlines**,
 
 | Top Headlines | Search News | Saved Articles |
 |---------------|-------------|----------------|
-| ![s1](https://github.com/abhinavreddy8/Newzz/blob/main/top%20fragment.jpg?raw=true) | ![s2](https://github.com/abhinavreddy8/Newzz/blob/main/search%20fragment.jpg?raw=true) | ![s3](https://github.com/abhinavreddy8/Newzz/blob/main/saved%20fragment.jpg?raw=true) | ![s3](https://github.com/abhinavreddy8/Newzz/blob/main/webview.jpg)
+| ![s1](https://github.com/abhinavreddy8/Newzz/blob/main/top%20fragment.jpg?raw=true) | ![s2](https://github.com/abhinavreddy8/Newzz/blob/main/search%20fragment.jpg?raw=true) | ![s3](https://github.com/abhinavreddy8/Newzz/blob/main/saved%20fragment.jpg?raw=true) | 
 
-| Weather | Dictionary |
-|--------|------------|
-| ![s4](https://github.com/abhinavreddy8/Newzz/blob/main/weather%20fragment.jpg?raw=true) | ![s5](https://github.com/abhinavreddy8/Newzz/blob/main/dictionary%20fragment.jpg?raw=true) |
+| Weather | Dictionary | WebView |
+|--------|------------|---------|
+| ![s4](https://github.com/abhinavreddy8/Newzz/blob/main/weather%20fragment.jpg?raw=true) | ![s5](https://github.com/abhinavreddy8/Newzz/blob/main/dictionary%20fragment.jpg?raw=true) | ![s6](https://github.com/abhinavreddy8/Newzz/blob/main/webview.jpg?raw=true) |
+
 
 
 
