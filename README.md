@@ -56,7 +56,7 @@ A modern Android app built with Kotlin that fetches real-time **Top Headlines**,
 |--------|------------|
 | ![s4](https://github.com/abhinavreddy8/Newzz/blob/main/weather%20fragment.jpg?raw=true) | ![s5](https://github.com/abhinavreddy8/Newzz/blob/main/dictionary%20fragment.jpg?raw=true) |
 
-> _Replace the screenshot URLs with actual links or local files._
+
 
 ---
 
